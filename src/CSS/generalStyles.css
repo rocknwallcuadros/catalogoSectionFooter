@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
+:root {
+    --main-font: 'Lusitana', serif;
+  }
+
+  *{
+      padding: 0;
+      margin: 0;
+      font-family: var(--main-font);
+  }
+
+  .card{
+      width:15rem;
+  }
+
+  .btn-buy{
+ 
+    color: #ffff;
+    border-radius: 20px;
+    background: #962618;
+  }
+
+  #selectCategories{
+     margin-top: 90px;
+      
+  }
+
+  .searchSpace{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 13px;
+  }
+
+  .page-link{
+    border: 0;
+    color:#000000;
+  }
+
+
+  #pieDePagina{
+    background-color: #818181;
+    text-align: center;
+  }
+ .img-footer{
+   width: 25rem;
+   margin: 2rem;
+  
+ }
+ .linksFooterContainer{
+   margin: 2.5rem;
+ }
+
+  .footerLink{
+    
+    color: #ffff;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .linkSocialIcon{
+    color: #ffff;
+   margin: 0.5rem;
+  }
