@@ -1,7 +1,7 @@
 
 
 //Getting JSON 
-const URLJSON = "/datos.json"
+const URLJSON = "/catalogoSectionFooter/datos.json"
 $.getJSON(URLJSON,(data, status) => {
     console.log(status);
   
