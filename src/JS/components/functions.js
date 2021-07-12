@@ -17,14 +17,17 @@ $.getJSON(URLJSON,(data, status) => {
     for (const producto of listados) {
       $('#catalogoContainer').append(`
                                        
-                                            <div class="card col-lg-4 col-sm-6 " style=" border: 0px;">
+                                            <div class="card col-lg-4 col-sm-6 mb-3" style=" border: 20px;">
 
                                                 <img src="./assets/img.png" class="img-fluid" class="card-img-top" alt="...">
 
                                                 <div class="card-body text-center">
                                                     <h5 class="card-title">${producto.name}</h5>
                                                     <p class="card-text">$${producto.valor}</p>
-                                                    <a href="#" class="btn btn-buy ">Go somewhere</a>
+                                                    <div class="buttonCompra mx-auto">
+                                                    <a href="#" class="btn mx-auto  btn-buy ">Agregar al Carrito</a>
+                                                     </div>
+                                                    
                                                 </div>
                                                 </div>`)
   }
